@@ -55,6 +55,7 @@ body{
     transform: scale(1.1);
 }
 .nav{
+    margin-right: 50px;
     width: 50%;
 }
 .nav ul{
@@ -69,7 +70,7 @@ body{
     /*font-family: Font1;*/
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 23px;
     margin-right: 25px;
 }
 .nav a:hover{
@@ -97,8 +98,6 @@ body{
 }
 .tekst h1:hover{
     transform: scale(1.1);
-    color: burlywood;
-    border-bottom: 2px solid black;
 }
 .tekst p{
     /*font-family: Font1;*/
@@ -120,8 +119,9 @@ body{
     color: white;
 }
 .blok1{
-    height: 600px;
-    background-color: #e2e2e2;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 700px;
 }
 .skrozgore{
     display: flex;
@@ -143,17 +143,23 @@ body{
 }
 .sredina p{
     /*font-family: Font1;*/
+    word-spacing: 5px;
     color: black;
     font-size: 20px;
+    padding: 10px 0 50px 0;
 }
 .dolesredina{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    width: 90%;
 }
 .dolesredinalevo{
-    margin-right: 50px;
-    width: 30%;
+    padding: 10px;
+    height: 270px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 27%;
 }
 .dolesredinalevo h1{
     /*font-family: Font1;*/
@@ -162,17 +168,13 @@ body{
     align-items: center;
 }
 .dolesredinalevo p{
-    margin: 0 0 20px 0;
     font-size: 17px;
     /*font-family: Font1;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .dolesredinalevo img{
     transition: transform 0.3s ease-in;
     border-radius: 15px;
-    margin-left: 100px;
+    margin: 20px 0 0 55px;
     height: 150px;
     width: auto;
 }
@@ -180,9 +182,11 @@ body{
     transform: scale(1.1);
 }
 .dolesredinasredina{
-    border-left: 2px solid #a3a3a3;
-    border-right: 2px solid #a3a3a3;
-    width: 30%;
+    padding: 10px;
+    height: 270px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 27%;
 }
 .dolesredinasredina h1{
     /*font-family: Font1;*/
@@ -194,14 +198,11 @@ body{
     margin: 0 0 20px 5px;
     font-size: 17px;
     /*font-family: Font1;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .dolesredinasredina img{
     transition: transform 0.3s ease-in;
     border-radius: 15px;
-    margin-left: 90px;
+    margin: 0 0 0 40px;
     height: 150px;
     width: auto;
 }
@@ -209,8 +210,11 @@ body{
     transform: scale(1.1);
 }
 .dolesredinadesno{
-    margin-left: 50px;
-    width: 30%;
+    height: 270px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 27%;
 }
 .dolesredinadesno h1{
     /*font-family: Font1;*/
@@ -219,17 +223,17 @@ body{
     align-items: center;
 }
 .dolesredinadesno p{
-    margin: 0 0 20px 0;
-    font-size: 17px;
-    /*font-family: Font1;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 17px;
+    /*font-family: Font1;*/
+
 }
 .dolesredinadesno img{
     transition: transform 0.3s ease-in;
     border-radius: 15px;
-    margin-left: 80px;
+    margin: 20px 0 0 55px;
     height: 150px;
     width: auto;
 }
@@ -237,8 +241,7 @@ body{
     transform: scale(1.1);
 }
 .blok2{
-    height: 600px;
-    background-color: #a2a2a2;
+    height: 700px;
 }
 .doledole{
     display: flex;
@@ -259,19 +262,24 @@ body{
     align-items: center;
 }
 .dole p{
+    word-spacing: 5px;
     /*font-family: Font1;*/
     color: black;
+    padding: 10px 0 30px 0;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 .skrozdole{
     width: 95%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .skrozdole1{
-    border-right: 2px solid #e2e2e2;
-    margin-right: 50px;
+    height: 310px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 20%;
 }
 .skrozdole1 h1{
@@ -281,7 +289,7 @@ body{
     align-items: center;
 }
 .skrozdole1 p{
-    margin: 0 0 20px 20px;
+    margin: 10px 0 20px 10px;
     font-size: 17px;
     /*font-family: Font1;*/
     display: flex;
@@ -291,7 +299,7 @@ body{
 .skrozdole1 img{
     transition: transform 0.3s ease-in;
     border-radius: 15px;
-    margin: 30px 20px 0 15px;
+    margin: 10px 20px 0 15px;
     height: 150px;
     width: 200px;
 }
@@ -299,9 +307,10 @@ body{
     transform: scale(1.1);
 }
 .skrozdole2{
-    border-left: 2px solid #e2e2e2;
-    border-right: 2px solid #e2e2e2;
-    margin-right: 50px;
+    height: 310px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 20%;
 }
 .skrozdole2 h1{
@@ -311,7 +320,7 @@ body{
     align-items: center;
 }
 .skrozdole2 p{
-    margin: 0 0 20px 20px;
+    margin: 10px 0 20px 10px;
     font-size: 17px;
     /*font-family: Font1;*/
     display: flex;
@@ -321,7 +330,7 @@ body{
 .skrozdole2 img{
     transition: transform 0.3s ease-in;
     border-radius: 15px;
-    margin: 25px 0 0 60px;
+    margin: 10px 0 0 45px;
     height: 150px;
     width: auto;
 }
@@ -329,9 +338,10 @@ body{
     transform: scale(1.1);
 }
 .skrozdole3{
-    border-left: 2px solid #e2e2e2;
-    border-right: 2px solid #e2e2e2;
-    margin-right: 50px;
+    height: 310px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 20%;
 }
 .skrozdole3 h1{
@@ -341,7 +351,7 @@ body{
     align-items: center;
 }
 .skrozdole3 p{
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px 10px;
     font-size: 17px;
     /*font-family: Font1;*/
     display: flex;
@@ -351,7 +361,7 @@ body{
 .skrozdole3 img{
     transition: transform 0.3s ease-in;
     border-radius: 15px;
-    margin-left: 60px;
+    margin-left: 45px;
     height: 150px;
     width: auto;
 }
@@ -359,8 +369,10 @@ body{
     transform: scale(1.1);
 }
 .skrozdole4{
-    border-left: 2px solid #e2e2e2;
-    margin-right: 50px;
+    height: 310px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 20%;
 }
 .skrozdole4 h1{
@@ -370,7 +382,7 @@ body{
     align-items: center;
 }
 .skrozdole4 p{
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px 10px;
     font-size: 17px;
     /*font-family: Font1;*/
     display: flex;
@@ -382,7 +394,7 @@ body{
     border-radius: 15px;
     margin: 40px 0 0 20px;
     height: 150px;
-    width: auto;
+    width: 200px;
 }
 .skrozdole4 img:hover{
     transform: scale(1.1);
@@ -391,23 +403,30 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100px;
+    height: 150px;
     background-color: rgb(174, 232, 235);
 }
 .footerlevo{
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-/*.footerlevo h2{
-    font-family: Font1;
-}*/
+.footerlevo h5{
+    margin-bottom: 10px;
+}
+.footerlevo h2{
+    margin-top: 10px;
+}
+.foootersredina p{
+    margin-bottom: 7px;
+}
+.foootersredina h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .footerdesno i{
     transition: transform 0.1s ease-in;
     color: black;
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .footerdesno i:hover{
     transform: scale(2.1);
@@ -418,7 +437,6 @@ body{
     align-items: center;
 }
 .autor{
-    background-color: #e2e2e2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -466,9 +484,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.sredina2{
-    background-color: #e2e2e2;
-}
 .levo1{
     margin-left: 50px;
     width: 200px;
@@ -480,8 +495,8 @@ form {
     margin: 50px;
     background: white;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 400px;
 }
 label {
@@ -496,7 +511,7 @@ input, textarea, .dugme1 {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .radio-group {
     /*font-family: Font1;*/
@@ -522,8 +537,8 @@ input, textarea, .dugme1 {
 .poljedesno{
     width: 700px;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .mapa{
     height: 530px;
@@ -531,15 +546,13 @@ input, textarea, .dugme1 {
 }
 .mapa h1{
     /*font-family: Font1;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 0 0 200px;
 }
 .mapa iframe{
     margin-top: 20px;
 }
 .header1{
-    background-color: #e2e2e2;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -548,10 +561,13 @@ input, textarea, .dugme1 {
     width: 80%;
 }
 .pasus p{
+    word-spacing: 5px;
+    padding: 20px 0 10px 0;
     font-size: 20px;
     /*font-family: Font1;*/
 }
 .pasus h1{
+    padding-top: 10px;
     font-size: 30px;
     /*font-family: Font1;*/
     display: flex;
@@ -581,21 +597,21 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .galerija{
-    height: 1450px;
-    background-color: #e2e2e2;
+    margin-top: 30px;
+    height: 2000px;
 }
 .prvired h1{
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 40px;
 }
 .skija1 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .skija1 img{
+    margin: 10px 0 10px 50px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -608,11 +624,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .skija2 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .skija2 img{
+    margin: 10px 0 10px 50px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -625,11 +643,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .skija3 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .skija3 img{
+    margin: 15px 0 15px 50px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -642,11 +662,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .skija4 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .skija4 img{
+    margin: 10px 0 10px 50px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -659,17 +681,18 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .drugired h1{
-    margin: 20px 0 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .pancerica1 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pancerica1 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -682,11 +705,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .pancerica2 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pancerica2 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -699,11 +724,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .pancerica3 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pancerica3 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -716,11 +743,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .pancerica4 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pancerica4 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -733,17 +762,18 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .trecired h1{
-    margin: 20px 0 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .kaciga1 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .kaciga1 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -756,11 +786,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .kaciga2 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .kaciga2 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -773,11 +805,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .kaciga3 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .kaciga3 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -790,11 +824,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .kaciga4 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .kaciga4 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -807,17 +843,18 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .cetvrtired h1{
-    margin: 20px 0 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .bord1 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bord1 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -830,11 +867,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .bord2 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bord2 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -847,11 +886,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .bord3 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bord3 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -864,11 +905,13 @@ input, textarea, .dugme1 {
     align-items: center;
 }
 .bord4 h2{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bord4 img{
+    margin: 10px 0 10px 35px;
     transition: transform 0.3s ease-in;
     border-radius: 15px;
 }
@@ -879,4 +922,22 @@ input, textarea, .dugme1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.border{
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+.prikaz{
+    border: none;
+    border-radius: 10px;
+    /*font-family: Font1;*/
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+    height: 35px;
+    width: 120px;
+}
+.prikaz:hover{
+    background-color: rgb(57, 59, 59);
+    color: white;
 }
