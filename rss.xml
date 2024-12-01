@@ -13,7 +13,12 @@
 		<item>
             <title>Novosti o nama</title>
             <link>https://veljkomarkovic126.github.io/websajt/pages/o-nama.html</link>
-            <description>Novosi o nama.</description>
+            <description>Novosi o autoru.</description>
         </item>
+	    <item>
+<title>O autoru</title>
+<link>https://veljkomarkovic126.github.io/websajt/pages/o-autoru.html</link>
+<description>Novosi o nama.</description>
+</item>
     </channel>
 </rss>
